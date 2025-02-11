@@ -53,7 +53,7 @@ Run the script double-clicking the `.BAT` - To have the script behave with your 
 
 | # | NAME | FORMAT | ACTION |
 | ------ | ------ | ------ | ------ |
-| 1 | Use Login | boolean | Switch between using the login in the .txt file and public access as a guest when fetching tag data. <ins>To use this option, place your username and password/api-key on the second and third line respectively inside "Login-Credentials.txt".</ins>|
+| 1 | Use Login | boolean | Switch between using the login in the .txt file and public access as a guest when fetching tag data. ***To use this option, place your username and password/api-key on the second and third line respectively inside "Login-Credentials.txt"***.|
 | 2 | Backslash brackets | boolean | Turns "\(" into "\\\(" and turns "\)" into "\\\)".|
 | 3 | Underscores to space | boolean | Turns "_" into " ".
 | 4 | Separate with commas | boolean | Turns "tag1 tag2" into "tag1, tag2".|
