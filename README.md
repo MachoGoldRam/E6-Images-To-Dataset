@@ -7,7 +7,7 @@ Installation of all is detailed in the next step.
 
 ## INSTALLATION
 **To use these scripts you will need the following:**
-- Chromium-based browser that can run extensions and has developer mode available to be enabled.
+- Chromium-based browser that can run extensions and enable them to use developer mode. (Most do)
 - A full local install of Bionus ImgBrdGrabber.
 - Windows, with PowerShell and CMD in your system (usually preinstalled)
 
