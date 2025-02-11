@@ -15,38 +15,37 @@ To use these scripts you will need the following:
 1. In your browser, install the TamperMonkey Extension from [the chrome web store](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and follow it's [install instructions](https://www.tampermonkey.net/faq.php?locale=en#Q100).
 2. Add [RE621](https://re621.app/) to tampermonkey clicking the install button and make sure to and have it enabled.
 3. Go to [e621.net](https://e621.net/) and configure RE621 as follows:
-        - Click the configuration icon on the top-left section of the header.
+        I. Click the configuration icon on the top-left section of the header.
+   XXXXXXXXXXXXXXXXXXXXXXXXXX
+        II. On the "Downloads" tab, expand the "Mass downloader" section and set the "Image file name" field as "%postid%"
+   XXXXXXXXXXXXXXXXXXXXXXXXXX
 
-
-        - On the "Downloads" tab, expand the "Mass downloader" section and set the "Image file name" field as "%postid%"
-
-
-4. Install [ImgBrdGrabber](https://www.bionus.org/imgbrd-grabber/docs/install/windows.html) via the installer on it's default install path. Close after installing.
-5. Download this repository into a designed folder.
+5. Install [ImgBrdGrabber](https://www.bionus.org/imgbrd-grabber/docs/install/windows.html) via the installer on it's default install path. Close after installing.
+6. Download this repository into a designed folder.
 
 
 ## USAGE
 Perform a search of the images you want to train on.
 Then, on the bottom of the left sidebar, under the "Download" section, click "Select".
-
+   XXXXXXXXXXXXXXXXXXXXXXXXXX
 
 Click on the tumbnails of the images you want to add to your dataset. A download icon will appear on the top left of the thumbnails.
-
+   XXXXXXXXXXXXXXXXXXXXXXXXXX
 
 Click download when you are satisfied with your selection, then wait for the zipped archive file to compress.
-
+   XXXXXXXXXXXXXXXXXXXXXXXXXX
 
 Download the file and save it to the zip folder on the scripts directory.
-
+   XXXXXXXXXXXXXXXXXXXXXXXXXX
 
 Run the script double-clicking the .BAT - To have the script behave with your preferences, specify the values for each of these as arguments inside the .BAT file:
 
 | # | NAME | FORMAT | ACTION |
 | ------ | ------ | ------ | ------ |
-| 1 | Use Log in | boolean | Switch between using the login in the .txt file and public access as a guest when fetching tag data. To use this option, place your username and password/api-key on the second and third line respectively inside "Login-Credentials.txt"|
-| 2 | Backslash brackets | boolean | '\(' ⇒ '\\\('  &  '\)' ⇒ '\\\)'|
-| 3 | Underscores to space | boolean | '_' ⇒ ' '
-| 4 | Separate with commas | boolean | 'tag1 tag2' ⇒ 'tag1, tag2'|
+| 1 | Use Log in | boolean | Switch between using the login in the .txt file and public access as a guest when fetching tag data. To use this option, place your username and password/api-key on the second and third line respectively inside "Login-Credentials.txt".|
+| 2 | Backslash brackets | boolean | Turns "\(" into "\\\(" and turns "\)" into "\\\)".|
+| 3 | Underscores to space | boolean | Turns "_" into " ".
+| 4 | Separate with commas | boolean | Turns "tag1 tag2" into "tag1, tag2".|
 | 5 | Separate last | boolean | Adds a ', ' after the last tag.|
 | 6 | Repetitions | integer | The number of repetitions for the concept, usually 1: Folder name will be '\[repetitions\]_\[concept name\]'.|
 | 7 | Concept name | string | The concept name to train on, as a single lowercase word: Folder name will be '\[repetitions\]_\[concept name\]'.|
