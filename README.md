@@ -26,7 +26,7 @@ Installation of all is detailed in the next step.
 
 
 - Install [ImgBrdGrabber](https://www.bionus.org/imgbrd-grabber/docs/install/windows.html) via the installer on it's default install path. Close after installing.
-- Download this repository into a designed folder of your choice.
+- Download this repository from the releases and into a designed folder of your choice.
 
 
 ## USAGE
