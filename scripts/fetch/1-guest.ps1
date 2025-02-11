@@ -16,6 +16,7 @@ $imageFiles = Get-ChildItem -Path $orphanFolder -File | Where-Object {
     $imageExtensions -contains $_.Extension.ToLower()
 }
 foreach ($image in $imageFiles) {
+    Write-Host "Getting tags for #$($image.BaseName)"
     $baseName = $image.BaseName
     $outputFile = Join-Path $orphanFolder "$baseName.txt"
     $arguments = @("-s", "e621.net", "-t", "id:$baseName", "--ri", "-m", "1", "-j")
