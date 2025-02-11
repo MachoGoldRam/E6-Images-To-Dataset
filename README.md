@@ -1,4 +1,6 @@
 # **Arcos' Dataset Formatter**
+> [!NOTE]
+> While everything seems to work, tests are being made to try and find bugs. This is the initial version.
 
 ## PURPOSE
 You pick the images with a few clicks on e621, download them in a .zip, configure the scripts, run, and your dataset comes out tagged and ready to train. All in less than 5 minutes! (Depending on the amount of images) - 
