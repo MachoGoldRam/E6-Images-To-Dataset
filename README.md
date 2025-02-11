@@ -52,7 +52,7 @@ Run the script double-clicking the `.BAT` - To have the script behave with your 
 
 | # | NAME | FORMAT | ACTION |
 | ------ | ------ | ------ | ------ |
-| 1 | Use Log in | boolean | Switch between using the login in the .txt file and public access as a guest when fetching tag data. To use this option, place your username and password/api-key on the second and third line respectively inside "Login-Credentials.txt".|
+| 1 | Use Login | boolean | Switch between using the login in the .txt file and public access as a guest when fetching tag data. <ins>To use this option, place your username and password/api-key on the second and third line respectively inside "Login-Credentials.txt".</ins>|
 | 2 | Backslash brackets | boolean | Turns "\(" into "\\\(" and turns "\)" into "\\\)".|
 | 3 | Underscores to space | boolean | Turns "_" into " ".
 | 4 | Separate with commas | boolean | Turns "tag1 tag2" into "tag1, tag2".|
@@ -62,10 +62,15 @@ Run the script double-clicking the `.BAT` - To have the script behave with your 
 | 8 | Activation token/s | string | The single lowercase word to prepend to the per-image .txt caption tag file, working as a trigger for manifestation. Format it the same way as the rest of the tags.|
 | 9 | Delete source | boolean | Deletes the origin .ZIP file/s after running.|
 
-_FORMAT REFERENCE_
-- Boolean: 'YES' OR 'NO'
-- Integer: ANY OF '123456789'
-- String:  ANY OF 'abcdefghijklmnopqrstuvwxyz'
+> [!IMPORTANT]
+>- Boolean: 'YES' OR 'NO'
+>- Integer: ANY OF '123456789'
+>- String:  ANY OF 'abcdefghijklmnopqrstuvwxyz'
+
+> [!WARNING]
+> ```diff
+> - ALL ARGUMENTS NEED TO BE PRESENT TO RUN -
+> ```
 
 #### EXAMPLE
 For: Do log in, not backslash the brackets, do turn the underscores into spaces, do separate with commas, do separate last, 1 repetition, concept name "beluga", activation token/s "beluga, ", do delete source zip file/s.
