@@ -57,8 +57,8 @@ Run the script double-clicking the `.BAT` - To have the script behave with your 
 | 3 | Underscores to space | boolean | Turns "_" into " ".
 | 4 | Separate with commas | boolean | Turns "tag1 tag2" into "tag1, tag2".|
 | 5 | Separate last | boolean | Adds a ', ' after the last tag.|
-| 6 | Repetitions | integer | The number of repetitions for the concept, usually 1: Folder name will be '\[repetitions\]_\[concept name\]'.|
-| 7 | Concept name | string | The concept name to train on, as a single lowercase word: Folder name will be '\[repetitions\]_\[concept name\]'.|
+| 6 | Repetitions | integer | The number of repetitions for the concept, usually 1: Folder name will be "\[repetitions\]_\[concept name\]".|
+| 7 | Concept name | string | The concept name to train on, as a single lowercase word: Folder name will be "\[repetitions\]_\[concept name\]".|
 | 8 | Activation token/s | string | The single lowercase word to prepend to the per-image .txt caption tag file, working as a trigger for manifestation. Format it the same way as the rest of the tags.|
 | 9 | Delete source | boolean | Deletes the origin .ZIP file/s after running.|
 
