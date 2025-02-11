@@ -71,6 +71,8 @@ Run the script double-clicking the `.BAT` - To have the script behave with your 
 > [!WARNING]
 > ```diff
 > - ALL ARGUMENTS NEED TO BE PRESENT TO RUN -
+> - MAKE SURE THAT YOUR CREDENTIALS ARE PRESENT IF USING THE LOGIN OPTION -
+> - MOVE THE RESULTING FOLDER OR RENAME IT IMMEDIATELY AFTER COMPLETION -
 > ```
 
 #### EXAMPLE
