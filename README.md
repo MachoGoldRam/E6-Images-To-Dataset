@@ -86,4 +86,4 @@ Upon execution, the script will tell you what it's going to do. To not get promp
 To always use a specific configuration, copy "EXAMPLE.BAT" with a different name and change the fourth line of your copy to your command.
 
 > [!NOTE]
-> The folder might get locked by COM Shell Host. Terminate the process from task manager to manipulate it.
+> The folder might get locked by `dllhost.exe`. Terminate it's process from task manager to be able to manipulate the folder again.
