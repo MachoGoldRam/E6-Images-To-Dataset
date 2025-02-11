@@ -1,7 +1,7 @@
 # **Arcos' Dataset Formatter**
 
 ## PURPOSE
-You pick the images with a few clicks on e621, download them in a .zip, configure the scripts, run, and your dataset comes out tagged and ready to train. All in less than 5 minutes! (Depending on the amount of images)
+You pick the images with a few clicks on e621, download them in a .zip, configure the scripts, run, and your dataset comes out tagged and ready to train. All in less than 5 minutes! (Depending on the amount of images) - 
 These are a series of scripts designed to work along with the RE621 TamperMonkey Script and the .com executable of a full Bionus' Image Board Grabber installaton.
 Installation of all is detailed in the next step.
 
