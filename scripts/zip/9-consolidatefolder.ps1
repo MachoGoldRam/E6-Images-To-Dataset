@@ -9,5 +9,4 @@ $datasetName = $($args[1])
 $newFolderName = "${repetitionNumber}_${datasetName}"
 Rename-Item -Path $orphanFolder -NewName $newFolderName
 New-Item -Path $orphanFolder -ItemType Directory | Out-Null
-Write-Output "DATASET PRIMED FOR TRAINING"
 exit
