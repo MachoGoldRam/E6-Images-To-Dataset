@@ -63,9 +63,11 @@ Write-Host 'Press any key to confirm your settings and run'
 Write-Host 'EXECUTION STARTED'
 
 # Image dump from zip files
+Write-Host 'Extracting image files'
 & ".\scripts\zip\0-unpack.ps1"
 
 # Get with or without login
+Write-Host 'Fetching tags'
 if ($args[0] -eq "YES") {
     & ".\scripts\fetch\1-user.ps1"
 } else {
@@ -73,6 +75,7 @@ if ($args[0] -eq "YES") {
 }
 
 # Initial format for all text files
+Write-Host 'Formatting tags'
 & ".\scripts\format\2-initial.ps1"
 
 # Backslash brackets
@@ -96,15 +99,17 @@ if ($args[4] -eq "YES") {
 } else {}
 
 # Repetitions, concept name, activation token to prepend
+Write-Host 'Applying activation token and naming folder'
 & ".\scripts\format\7-activationtoken.ps1" "$($args[7])"
 & ".\scripts\zip\9-consolidatefolder.ps1" "$($args[5])" "$($args[6])"
 
 if ($args[8] -eq "YES") {
+Write-Host 'Cleaning ZIP file/s'
     & ".\scripts\zip\8-delete.ps1"
 } else {}
 
 #Tell user
-Write-Host 'DONE'
+Write-Host 'Dataset ready'
 Write-Host 'Press any key to exit';
 [void][System.Console]::ReadKey($FALSE)
 
