@@ -1,6 +1,4 @@
 # **Arcos' Dataset Formatter**
-> [!NOTE]
-> Minor bugs present. This is the initial version.
 
 ## PURPOSE
 You pick the images with a few clicks on e621, download them in a .zip, configure the scripts, run, and your dataset comes out tagged and ready to train. All in less than 5 minutes! (Depending on the amount of images) - 
@@ -85,5 +83,5 @@ This is also the recommended way to run and format.
 Upon execution, the script will tell you what it's going to do. To not get prompted with these warnings, in the command, replace "`general.ps1`" with "`general-nowarn.ps1`".
 To always use a specific configuration, copy "EXAMPLE.BAT" with a different name and change the fourth line of your copy to your command.
 
-## KNOWN BUGS
-- [ ] The resulting folder gets locked by COM Host process
+> [!NOTE]
+> The folder might get locked by another process. Investigating.
