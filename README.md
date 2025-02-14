@@ -77,13 +77,13 @@ Run the script double-clicking the `.BAT` - To have the script behave with your 
 
 #### EXAMPLE
 For: Do log in, not backslash the brackets, do turn the underscores into spaces, do separate with commas, do separate last, 1 repetition, concept name "beluga", activation token/s "beluga, ", do delete source zip file/s.
-Command on the fourth line of "`TOOL.BAT` would be:
+Command on the fourth line of `EXAMPLE.BAT` would be:
 
 > `powershell -ExecutionPolicy Bypass -File .\scripts\general.ps1 YES NO YES YES YES 1 "beluga" "beluga, " YES`
 
 This is also the recommended way to run and format.
 Upon execution, the script will tell you what it's going to do. To not get prompted with these warnings, in the command, replace "`general.ps1`" with "`general-nowarn.ps1`".
-To always use a specific configuration, copy "EXAMPLE.BAT" with a different name and change the fourth line of your copy to your command.
+To always use a specific configuration, copy `EXAMPLE.BAT` with a different name and change the fourth line of your copy to your command.
 
 > [!NOTE]
 > The resulting folder might get locked by `dllhost.exe`. Terminate it's process from task manager to be able to manipulate the folder again.
