@@ -30,12 +30,13 @@ Installation of all is detailed in the next step.
 
 
 ## USAGE
-Perform a search of the images you want to train on.
+Perform a search of the images you want to train on. I advise adding `-text -comic -dialogue -animated -interactive` to remove them from search.
 Then, on the bottom of the left sidebar, under the "Download" section, click "Select".
 
 ![plot](./images/WhereDownload.png?raw=true)
 
 Click on the tumbnails of the images you want to add to your dataset. A download icon will appear on the top left of the thumbnails.
+To download all visible images, click the link below the two buttons.
 
 ![plot](./images/SelectedToDownload.png?raw=true)
 
