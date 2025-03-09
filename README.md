@@ -30,7 +30,7 @@ Installation of all is detailed in the next step.
 
 
 ## USAGE
-Perform a search of the images you want to train on. I advise adding `-text -comic -dialogue -animated -interactive` to remove them from search.
+Perform a search of the images you want to train on. I advise adding `-text -comic -dialogue -animated -interactive` to remove them from search. Custom image sets are also supported.
 Then, on the bottom of the left sidebar, under the "Download" section, click "Select".
 
 ![plot](./images/WhereDownload.png?raw=true)
@@ -44,7 +44,7 @@ Click download when you are satisfied with your selection, then wait for your co
 
 ![plot](./images/DownloadAction.png?raw=true)
 
-Download the file to the `\zip` folder on the root of this project.
+Download the file to the `\zip` folder on the root of this project without extracting it.
 
 ![plot](./images/SaveAs.png?raw=true)
 
