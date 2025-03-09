@@ -82,7 +82,7 @@ Command on the fourth line of `EXAMPLE.BAT` would be:
 
 > `powershell -ExecutionPolicy Bypass -File .\scripts\general.ps1 YES NO YES YES YES 1 "beluga" "beluga, " YES`
 
-This is also the recommended way to run and format.
+This is also the recommended way to run and format. `.ZIP` Deletion is disabled by default.
 Upon execution, the script will tell you what it's going to do. To not get prompted with these warnings, in the command, replace "`general.ps1`" with "`general-nowarn.ps1`".
 To always use a specific configuration, copy `EXAMPLE.BAT` with a different name and change the fourth line of your copy to your command.
 
