@@ -26,7 +26,7 @@ Installation of all is detailed in the next step.
 
 
 - Install [ImgBrdGrabber](https://www.bionus.org/imgbrd-grabber/docs/install/windows.html) via the installer on it's default install path. Close after installing.
-- Download this repository from the releases and into a designed folder of your choice. Feel free to remove the `\images` folder and `.gitkeep` files inside `\wip` and `\zip`.
+- Download this repository from the releases and into a designed folder of your choice (`git clone https://github.com/MachoGoldRam/E6-Images-To-Dataset/` is also valid). Feel free to remove the `\images` folder and `.gitkeep` files inside `\wip` and `\zip`.
 
 
 ## USAGE
