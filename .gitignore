@@ -1,5 +1,4 @@
 .gitignore
 .gitkeep
-images\
-wip\.gitkeep
-zip\.gitkeep
+.\images\
+.\images\*
