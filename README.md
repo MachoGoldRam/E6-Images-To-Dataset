@@ -26,7 +26,7 @@ Installation of all is detailed in the next step.
 
 
 - Install [ImgBrdGrabber](https://www.bionus.org/imgbrd-grabber/docs/install/windows.html) via the installer on it's default install path. Close after installing.
-- Download this repository from the releases and into a designed folder of your choice.
+- Download this repository from the releases and into a designed folder of your choice. Feel free to remove the `\images` folder and `.gitkeep` files inside `\wip` and `\zip`.
 
 
 ## USAGE
@@ -44,7 +44,7 @@ Click download when you are satisfied with your selection, then wait for your co
 
 ![plot](./images/DownloadAction.png?raw=true)
 
-Download the file to the `zip` folder on the root of this project.
+Download the file to the `\zip` folder on the root of this project.
 
 ![plot](./images/SaveAs.png?raw=true)
 
